@@ -1,0 +1,48 @@
+/*Bootstrap Portfolio Homework #2b
+	Created 11/9/17
+	Last updated 11/10/17
+	Written by: Steve Harold*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Roboto');
+
+html,
+body {
+	height: 100%;
+}
+
+body * {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 2em;
+}
+
+body {	
+	margin: auto;
+	background-image: url(../images/dark_wood.png); /*Background texture supplied by SubtlePatterns.com*/
+}
+
+nav {
+	background-color: #E8F1F2;
+}
+
+.navbar-header .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    height: 90px;
+    padding: 25px 10px;
+	background-color: #028090; 
+	color: #E8F1F2;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+	background-color: red;
+}
+
+#about {
+	background-color: #E8F1F2;
+	color: #3A4660;
+}
+
+#connect {
+	background-color: #E8F1F2;
+}
