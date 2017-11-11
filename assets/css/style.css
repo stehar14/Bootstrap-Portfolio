@@ -172,6 +172,84 @@ nav {
     box-shadow:0px 0 0 #028090  inset;
 }
 
+/*portfolio*/
+
+#portfolio {
+	margin-top: 30px;
+	background-color: #E8F1F2;
+	color: #3A4660;
+	padding: 20px;
+}
+
+#portfolio h2 {
+	margin-top: 0;
+	padding: 0px 0 20px 0px;
+	border-bottom: #3A4660 solid 2px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #028090;
+}
+
+#first {
+	background: url(../images/website.jpg) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#second {
+	background: url(../images/blog.jpg) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#third {
+	background: url(../images/movie.jpg) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#fourth {
+	background: url(../images/games.jpg) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#fifth {
+	background: url(../images/news.jpg) 50% 50% no-repeat;
+	width: 285px;
+	height: 225px;
+}
+
+#first,
+#third,
+#fifth {
+	float: left;
+	margin: 40px 15px 0 10px;
+	position: relative;	
+}
+
+#second,
+#fourth {
+	float: left;
+	margin: 40px 10px 0 15px;
+	position: relative;
+}
+
+#portfolio h4 {
+	background-color: #028090;
+	text-align: center;
+	color: #E8F1F2;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+
+	
+
+
 /*connect*/
 
 #connect {
