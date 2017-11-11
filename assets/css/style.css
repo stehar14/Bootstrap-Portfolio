@@ -21,6 +21,8 @@ body {
 	background-image: url(../images/dark_wood.png); /*Background texture supplied by SubtlePatterns.com*/
 }
 
+/*header*/
+
 nav {
 	background-color: #E8F1F2;
 }
@@ -34,15 +36,182 @@ nav {
 	color: #E8F1F2;
 }
 
-.navbar-header .navbar-toggle .icon-bar {
-	background-color: red;
+.navbar-header .navbar-toggle {
+	margin-top: 25px;
 }
 
+.navbar-header .navbar-toggle .icon-bar {
+	background-color: #028090;
+}
+
+.navbar-nav {
+	margin-top: 20px;
+}
+
+.navbar-nav li {
+	width: 33%;
+	float: left;	
+	border-left: #3A4660 solid 1px;
+	color: #028090; 
+	text-align: center;
+}
+
+.navbar-nav li:first-child {
+	border-left: 0px; 
+}
+
+.navbar-nav li a {
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+	padding: 15px;
+}
+
+.navbar-nav li a:visited {
+	color: #028090;
+}
+
+.navbar-nav li:hover {
+	background-color: #028090;
+}
+
+.navbar-nav li a:hover {
+	color: #E8F1F2;
+	background-color: #028090;
+	font-weight: bold;
+}
+
+/*about me*/
+
 #about {
+	margin-top: 30px;
 	background-color: #E8F1F2;
 	color: #3A4660;
+	padding: 20px;
 }
+
+#about h2 {
+	margin-top: 0;
+	padding: 0px 0 20px 0px;
+	border-bottom: #3A4660 solid 2px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #028090;
+}
+
+#me {
+	margin: 10px 10px 0 0;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: url(../images/me.jpg) 35% 20% no-repeat;
+}
+
+/*contact*/
+
+#contact {
+	margin-top: 30px;
+	background-color: #E8F1F2;
+	color: #3A4660;
+	padding: 20px;
+}
+
+#contact h2 {
+	margin-top: 0;
+	padding: 0px 0 20px 0px;
+	border-bottom: #3A4660 solid 2px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #028090;
+}
+
+#name {
+	margin-top: 15px;
+}
+
+#email {
+	margin-top: 15px;
+}
+
+#comment {
+	margin-top: 15px;
+}
+
+.btn-default {
+	background-color: #E8F1F2;
+	color: #028090;
+	margin-top: 15px;
+	border: #028090 solid 2px;
+	width: 78.25px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+}
+
+.btn-default:hover {
+	background-color: #028090;
+	color: #E8F1F2;
+	font-weight: bold;
+}
+
+.btn-change7{
+	font-weight: bold;
+    height: 50px;
+    width: 100px;
+    background: #E8F1F2;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#028090;
+    box-shadow: 0 0 1px #fff;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #028090  inset;
+}
+
+/*connect*/
 
 #connect {
 	background-color: #E8F1F2;
+	float: right;
+	margin-top: 30px;
+	padding: 15px 25px 15px 25px;
+}
+
+#connect h3 {
+	border-bottom: black solid 1px;
+	padding-bottom: 10px;
+	font-size: 27px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 0;
+	font-weight: bold;
+	color: #028090;
+}
+
+#connect img {
+	padding: 0px;
+	margin: 0;
+}
+
+#connect a img:hover {
+	background-color:  #028090;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #3A4660;
+    border-top: #028090 solid 10px;
+    margin-top: 40px;
+}
+
+.footer p {
+	padding: 40px;
+	text-align: center;
+	color: #E8F1F2;
+	font-size: 12px;
 }
